@@ -1,0 +1,161 @@
+.forFlex, .container3, .container1 .box1 span, .container1 .box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forImg, .container2 .article2 img, .container2 .article1 img {
+  width: 40rem;
+  height: 300px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container1 {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(45deg, rgb(41, 241, 251) 12.5%, rgb(255, 191, 67) 12.5%, rgb(255, 191, 67) 25%, rgb(255, 83, 87) 25%, rgb(255, 83, 87) 37.5%, rgb(188, 69, 243) 37.5%, rgb(188, 69, 243) 50%, rgb(41, 241, 251) 50%, rgb(41, 241, 251) 62.5%, rgb(255, 191, 67) 62.5%, rgb(255, 191, 67) 75%, rgb(255, 83, 87) 75%, rgb(255, 83, 87) 87.5%, rgb(188, 69, 243) 87.5%, rgb(188, 69, 243) 100%);
+  background-size: 282.84px 282.84px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container1 p {
+  font-size: 35px;
+  font-weight: bold;
+  padding: 20px;
+  color: black;
+}
+.container1 .box1 {
+  height: 85vh;
+  flex-direction: column;
+  position: relative;
+}
+.container1 .box1 h1 {
+  color: white;
+  font-size: 10rem;
+  line-height: 7rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 5rem;
+}
+.container1 .box1 h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-size: 5rem;
+}
+.container1 .box1 span {
+  display: inline-block;
+  width: 110px;
+  height: 110px;
+  background-color: rgb(255, 83, 87);
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  right: 18.4rem;
+  top: 11rem;
+}
+.container1 .box2 {
+  text-align: right;
+  padding-right: 40px;
+}
+.container1 .box2 span i {
+  margin-right: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.container1 .box2 span i.la-facebook-f {
+  color: #1877f2;
+}
+.container1 .box2 span i.la-instagram {
+  color: #e1306c;
+}
+.container1 .box2 span i.la-twitter {
+  color: #1da1f2;
+}
+
+.container2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  padding-top: 50px;
+}
+.container2 .article1 {
+  text-align: center;
+}
+.container2 .article1 h2 {
+  font-size: 30px;
+  width: 20rem;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4rem;
+}
+.container2 .article1 p {
+  font-size: 25px;
+  text-align: left;
+  padding: 0px 12.3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.container2 .article1 button {
+  width: 25rem;
+  height: 40px;
+  outline: none;
+  border-color: orange;
+  background-color: orange;
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: white;
+  font-weight: bold;
+}
+.container2 .article2 {
+  text-align: center;
+}
+.container2 .article2 img {
+  margin-top: 60px;
+}
+.container2 .article2 h2 {
+  font-size: 30px;
+  width: 20rem;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+}
+.container2 .article2 p {
+  font-size: 25px;
+  text-align: left;
+  padding: 0px 12.3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+.container2 .article2 button {
+  width: 25rem;
+  height: 40px;
+  outline: none;
+  border-color: orange;
+  background-color: orange;
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: white;
+  font-weight: bold;
+}
+
+.container3 {
+  height: 50px;
+  background-image: linear-gradient(45deg, rgb(41, 241, 251) 12.5%, rgb(255, 191, 67) 12.5%, rgb(255, 191, 67) 25%, rgb(255, 83, 87) 25%, rgb(255, 83, 87) 37.5%, rgb(188, 69, 243) 37.5%, rgb(188, 69, 243) 50%, rgb(41, 241, 251) 50%, rgb(41, 241, 251) 62.5%, rgb(255, 191, 67) 62.5%, rgb(255, 191, 67) 75%, rgb(255, 83, 87) 75%, rgb(255, 83, 87) 87.5%, rgb(188, 69, 243) 87.5%, rgb(188, 69, 243) 100%);
+  background-size: 282.84px 282.84px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-size: 20px;
+  letter-spacing: 10px;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,37 @@
+$color1: rgb(41, 241, 251);
+$color2: rgb(255, 191, 67);
+$color3: rgb(255, 83, 87);
+$color4: rgb(188, 69, 243);
+
+$colorFb: #1877f2;
+$colorTwit: #1da1f2;
+$colorInsta: #e1306c;
+$colorWhite: white;
+$colorBlack: black;
+
+$bodyBackColor: linear-gradient(
+  45deg,
+  $color1 12.5%,
+  $color2 12.5%,
+  $color2 25%,
+  $color3 25%,
+  $color3 37.5%,
+  $color4 37.5%,
+  $color4 50%,
+  $color1 50%,
+  $color1 62.5%,
+  $color2 62.5%,
+  $color2 75%,
+  $color3 75%,
+  $color3 87.5%,
+  $color4 87.5%,
+  $color4 100%
+);
+
+$width100: 100%;
+$height100vh: 100vh;
+
+$fontSize30: 35px;
+$fontWeightBol: bold;
+
+$fontFamArial: Arial, Helvetica, sans-serif;

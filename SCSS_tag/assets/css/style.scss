@@ -1,0 +1,144 @@
+@import "variables";
+@import "mixin";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $fontFamArial;
+}
+
+//container1
+.container1 {
+  width: $width100;
+  height: $height100vh;
+  @include forBackgroundcolor;
+
+  p {
+    font-size: $fontSize30;
+    font-weight: $fontWeightBol;
+    padding: 20px;
+    color: $colorBlack;
+  }
+
+  //div
+
+  .box1 {
+    height: 85vh;
+    flex-direction: column;
+    position: relative;
+    @extend .forFlex;
+
+    h1 {
+      color: $colorWhite;
+      font-size: 10rem;
+      line-height: 7rem;
+      font-family: $fontFamArial;
+      margin-top: 5rem;
+    }
+
+    h2 {
+      font-family: $fontFamArial;
+      color: $colorWhite;
+      font-size: 5rem;
+    }
+
+    span {
+      display: inline-block;
+      width: 110px;
+      height: 110px;
+      background-color: $color3;
+      border-radius: 50%;
+      display: flex;
+
+      @extend .forFlex;
+
+      position: absolute;
+      right: 18.4rem;
+      top: 11rem;
+    }
+  }
+
+  .box2 {
+    text-align: right;
+    padding-right: 40px;
+
+    span {
+      i {
+        margin-right: 20px;
+        font-size: 20px;
+        font-weight: $fontWeightBol;
+
+        &.la-facebook-f {
+          color: $colorFb;
+        }
+
+        &.la-instagram {
+          color: $colorInsta;
+        }
+
+        &.la-twitter {
+          color: $colorTwit;
+        }
+      }
+    }
+  }
+}
+//container2
+.container2 {
+  width: $width100;
+  height: $height100vh;
+  display: flex;
+  padding-top: 50px;
+
+  //article1
+  .article1 {
+    text-align: center;
+    img {
+      @extend .forImg;
+    }
+
+    h2 {
+      @include forArt1H2;
+      margin-top: 4rem;
+    }
+
+    p {
+      @include forP;
+    }
+
+    button {
+      @include forBtn;
+    }
+  }
+  //article2
+  .article2 {
+    text-align: center;
+    img {
+      @extend .forImg;
+      margin-top: 60px;
+    }
+
+    h2 {
+      @include forArt1H2;
+      margin-top: 1rem;
+    }
+
+    p {
+      @include forP;
+    }
+
+    button {
+      @include forBtn;
+    }
+  }
+}
+//container3
+
+.container3 {
+  height: 50px;
+  @include forBackgroundcolor;
+  @extend .forFlex;
+  color: $colorWhite;
+  font-size: 20px;
+  letter-spacing: 10px;
+}

@@ -1,0 +1,47 @@
+.forFlex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forImg {
+  width: 40rem;
+  height: 300px;
+}
+
+@mixin forArt1H2 {
+  font-size: 30px;
+  width: 20rem;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin forP {
+  font-size: 25px;
+  text-align: left;
+  padding: 0px 12.3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+@mixin forBtn {
+  width: 25rem;
+  height: 40px;
+  outline: none;
+  border-color: orange;
+  background-color: orange;
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 3px;
+  color: $colorWhite;
+  font-weight: $fontWeightBol;
+}
+
+@mixin forBackgroundcolor {
+  background-image: $bodyBackColor;
+  background-size: 282.84px 282.84px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
